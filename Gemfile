@@ -3,20 +3,21 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.2.3'
-gem 'rails-i18n', '~> 5.1'
+gem 'rails', '5.2.8.1'
+gem 'rails-i18n', '~> 5.1.3'
 gem 'i18n-country-translations'
-gem 'webpacker', '~> 3.4'
+gem 'webpacker', '~> 4.x'
 # Use postgresql as the database for Active Record
 gem 'pg'
-# Use SCSS for stylesheets
-gem 'sass-rails'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+
+gem "tzinfo-data"
 
 # Form helper
 gem 'simple_form'
@@ -29,7 +30,9 @@ gem 'redcarpet'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc'
+gem 'sdoc', '2.0.0'
+
+gem 'psych', '3.3.0'
 
 # Static pages
 gem 'high_voltage', '~> 3.0.0'

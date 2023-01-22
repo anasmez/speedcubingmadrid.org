@@ -10,6 +10,7 @@
 .env
 .env.production
 credentials.json
+ouath_credentials.json
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -18,6 +19,7 @@ credentials.json
 /public/packs
 /public/packs-test
 /node_modules
+/yarn-error.log
 yarn-debug.log*
 .yarn-integrity
 .byebug_history
