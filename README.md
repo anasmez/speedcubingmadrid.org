@@ -56,7 +56,7 @@ The easiest way to develop locally is to run the WCA website locally (because yo
 In any case you need to create an Oauth application on the instance of the WCA website you are targeting (local, or production), this is [here](https://www.worldcubeassociation.org/oauth/applications) for on the "production" website of the WCA.
 The URL of callback is the page managing the authentication on the site of the AMS, locally it is `http://localhost:1234/wca_callback`.
 
-Once this is done, it will be necessary to add the id of the application and the secret to the local environment; the website can load environment variables from a `.env` file, so just create a `.env` file at the root of the repository.
+Once this is done, it will be necessary to add the id of the application and the secret to the local environment; the website can load environment variables from a `.env` file, so copy the `.env.example` as a `.env` file at the root of the repository.
 It will contain for example this:
 
 ```bash
