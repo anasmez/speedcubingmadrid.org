@@ -23,6 +23,10 @@
     "upath": "1.1.0"
   },
   "devDependencies": {
-    "webpack-dev-server": "2.11.2"
+    "webpack-dev-server": "^4.11.1"
+  },
+  "engines": {
+    "npm": "~8.19.0",
+    "node": "~16.19.0"
   }
 }
